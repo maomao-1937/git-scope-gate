@@ -1,0 +1,11 @@
+[
+  {"args": ["examples/demo.py", "clean"], "exit": 0},
+  {"args": ["examples/demo.py", "allowed"], "exit": 0},
+  {"args": ["examples/demo.py", "blocked"], "exit": 1},
+  {"args": ["examples/demo.py", "rename"], "exit": 1},
+  {"args": ["examples/demo.py", "denied"], "exit": 1},
+  {"args": ["examples/demo.py", "bad-policy"], "exit": 2},
+  {"args": ["examples/demo.py", "nested"], "exit": 2},
+  {"args": ["examples/demo.py", "subdir"], "exit": 2},
+  {"args": ["examples/demo.py", "text"], "exit": 0}
+]

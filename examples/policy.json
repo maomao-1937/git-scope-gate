@@ -1,0 +1,4 @@
+{
+  "allow": ["src/", "tests/", "README.md"],
+  "deny": ["src/private/"]
+}
